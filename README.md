@@ -14,25 +14,18 @@ Snow Leopard (OS X 10.6).
 Use [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action)
 for Lion (OS X 10.7) or Mountain Lion (OS X 10.8).
 
-2) Set zsh as your login shell.
-
-    chsh -s /bin/zsh
-
 Install
 -------
 
 Run the script:
 
-    zsh < <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
+    bash < <(curl -s https://raw.github.com/groupbuddies/laptop/master/mac)
 
 What it sets up
 ---------------
 
 * Ack for finding things in files
 * Bundler gem for managing Ruby libraries
-* Foreman gem for serving Rails apps locally
-* Heroku gem for interacting with the Heroku API
-* Heroku Config plugin for local `ENV` variables
 * Homebrew for managing operating system libraries
 * ImageMagick for cropping and resizing images
 * Postgres for storing relational data
@@ -49,15 +42,15 @@ It should take less than 15 minutes to install (depends on your machine).
 Credits
 -------
 
-![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
+Thanks to [thoughtbot](http://thoughtbot.com/) from whom this scripts are based.
 
-Laptop is maintained and funded by [thoughtbot, inc](http://thoughtbot.com/community).
-The names and logos for thoughtbot are trademarks of thoughtbot, inc.
+![groupbuddies](http://www.groupbuddies.com/logo.png)
 
-Thank you, [contributors](/thoughtbot/laptop/graphs/contributors)!
+This guides are maintained by [Group Buddies](http://groupbuddies.com)
+The names and logos for Group Buddies are trademarks of GB-Software As A Service, Lda.
 
 License
 -------
 
-Laptop is © 2011-2012 thoughtbot, inc. It is free software, and may be
+This guides are © 2012 GB-Software As A Service, Lda. It is free software, and may be
 redistributed under the terms specified in the LICENSE file.
